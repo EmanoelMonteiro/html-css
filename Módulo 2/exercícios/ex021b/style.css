@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 139, 139, 0.173);
+    margin: 0px;
+    
+}
+header{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    
+    border-radius: 5px 20px 0px 0px;
+}
+nav{
+    background-color: cornflowerblue;
+    box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.451);
+    border-radius: 20px 20px;
+}
+nav > a {
+    margin: 5px;
+    padding: 15px;
+}
+main{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+section{
+    background-color: rgba(250, 233, 210, 0.712);
+    padding: 10px;
+    border:  solid 1px black;
+    margin: 5px;
+    
+    border-radius: 10px;
+}
+p{
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+/* criando um circulo com uma div:*/
+#radiustest {
+    
+    background-image: linear-gradient(to top ,black, rgba(0, 0, 255, 0.7), white) ;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

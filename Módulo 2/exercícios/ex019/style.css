@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* id : o valor de um id não pode se rpetir para outras tags.
+        pode ser usado com classes.
+class : pode ser adicionado o valor de outras classes há uma só chamada, ex {class="destaque organização"}.  
+
+*/
+
+body{
+    color: darkblue;
+    background-color: rgba(123, 161, 232, 0.242);
+}
+h1{
+    color: white;
+    background-color: darkcyan;
+}
+    #titulos{
+        color: blueviolet;
+        background-color:  rgba(162, 104, 216, 0.137);
+        margin-left: 20px;
+    }
+    h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Niveis{
+        font-style: italic;
+        font-family: sans-serif;
+        background-color: rgba(0, 0, 0, 0.234);
+    } 
+    .inter{
+        color: rgba(0, 0, 255, 0.4);
+    }
+    .basi{
+        color: rgba(255, 217, 0, 0.401);
+    }
+    .avan{
+        color: rgba(255, 0, 0, 0.408);
+    }
+
+    .conteudo{
+        text-align: center;
+        
+    }
+    .conteudo::before{
+        content: '>>>';
+    }
+
+   #Personalisado {
+    text-align: center;
+    background-color: cadetblue;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover | chield</title>
+
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            color: cornflowerblue;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exemplo de hover</h1>
+    <p>Desliza o mouse sobre o texto abaixo</p>
+    <div>Aqui mesmo!
+        <p> Texto estava escondido</p>
+    </div>
+
+    <p>fim da página</p>
+</body>
+</html>
