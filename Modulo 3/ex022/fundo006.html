@@ -7,12 +7,18 @@
     <title>posição de background</title>
     <style>
         body{
+            height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: top center;
             background-repeat: no-repeat;
             background-size: cover ;
-            height: 100vh;
+            background-attachment: fixed;
+
+            /* 
+            shorthand backgroud: 
+            color > image > position > repeat > [size] > attachment ;
+            */
         }
         main{
             background-color: white;
