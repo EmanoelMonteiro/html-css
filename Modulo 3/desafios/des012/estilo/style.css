@@ -10,6 +10,7 @@
 html, body{
     min-height: 100vh;
     background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -21,7 +22,7 @@ header{
 header>h1{
     font-variant: small-caps;
     padding-top: 20px;
-    
+    font-size: 4vw;
 }
  header > p{
     padding-bottom: 50px;
@@ -40,16 +41,20 @@ header>h1{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-family: 'Sriracha';
+    font-size: 3.5vw;
+    
  }
 
  section.imagem > p {
-    padding-left: 10px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.26);
-    width: 300px;
+    display: inline-block;
  }
  section.imagem{
     background-color: rgb(50, 49, 49);
     color: white;
+    
  }
  section.normal{
     background-color: white;
