@@ -45,19 +45,36 @@ header>h1{
     font-size: 3.5vw;
     
  }
-
+section > p{
+   padding-bottom: 2em;
+}
  section.imagem > p {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.26);
     display: inline-block;
+    text-shadow: 1px 1px 1px black;
  }
  section.imagem{
     background-color: rgb(50, 49, 49);
     color: white;
+    box-shadow: inset 3px 5px 3px rgba(0, 0, 0, 0.486);
     
+ }
+ #img01{
+   background-image: url('../imagens/background001.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+ }
+ #img02{
+   background-image: url('../imagens/background002.jpg');
+   background-attachment: fixed;
+   background-position: bottom left;
+   
  }
  section.normal{
     background-color: white;
+    
  }
 
  footer{
