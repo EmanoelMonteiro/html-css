@@ -7,11 +7,19 @@
     <title>tabelas grandes</title>
 
     <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
         table{
             border-collapse: collapse;
             width: 400px;
         }
-    
+        caption{
+            background-color: lightgray;
+            padding: 5px;
+            font-size: 1.5em;
+            color: rgb(0, 0, 0);
+        }
         thead, tfoot{
             background-color: rgb(134, 134, 134);
             color: aliceblue;
@@ -22,6 +30,7 @@
         }
         .num{
             text-align: right;
+            width: 100px;
         }
       
     </style>
@@ -40,10 +49,13 @@
     -->
 
     <table>
+        <caption>
+            Tabela de habitantes/Estado
+        </caption>
        <thead>
         <tr>
-            <th>Estado</th>
-            <th>Habitantes</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Habitantes</th>
         </tr>
        </thead>
 
@@ -71,7 +83,7 @@
 
        </tbody>
        <tfoot>
-            <td>Total habitantes</td>
+            <th scope="row">Total habitantes</th>
             <td class="num">400 000</td>
        </tfoot>
 
